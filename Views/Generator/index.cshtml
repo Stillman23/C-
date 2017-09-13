@@ -1,0 +1,26 @@
+<html>
+    <head>
+         <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/css/style.css"/>
+    <title>Random Passcode</title>
+    </head>
+    <body>
+        
+        <h1>Random passcode(passcode # @ViewBag.counter)</h1>
+        <h1>@ViewBag.passcode</h1>
+        
+        
+        
+
+        <form action = "/generate">
+        <input type = "submit" value = "generate" class="button" id="generate">
+        </form>
+
+        <form action = "/reset">
+        <input type = "submit" value = "reset" class="button" id="reset">
+        </form>
+
+    </body>
+</html>
